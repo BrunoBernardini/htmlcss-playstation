@@ -1,5 +1,7 @@
 /* ---------------{ HEADER }--------------- */
 
+/* Header top */
+
 .header-top{
   background-color: black;
 }
@@ -7,6 +9,71 @@
 .header-top .logo{
   width: 77px;
   margin: 11px;
+}
+
+/* Header bottom */
+
+.header-bottom .custom-navbar{
+  padding: 2px 0;
+}
+
+.header-bottom .custom-navbar .nav-item span,
+.header-bottom .custom-navbar .right-item span{
+  margin-right: 5px;
+  color: black;
+}
+
+.header-bottom .custom-navbar .nav-item:hover span,
+.header-bottom .custom-navbar .right-item:hover span{
+  color: #0875d3;
+}
+
+.header-bottom .custom-navbar .nav-item img,
+.header-bottom .custom-navbar .right-item img{
+  width: 10px;
+  margin-right: 9px;
+}
+
+.header-bottom .custom-navbar .nav-item .hover,
+.header-bottom .custom-navbar .right-item .hover{
+  display: none;
+}
+
+.header-bottom .custom-navbar .nav-item:hover .std,
+.header-bottom .custom-navbar .right-item:hover .std{
+  display: none;
+}
+
+.header-bottom .custom-navbar .nav-item:hover .hover,
+.header-bottom .custom-navbar .right-item:hover .hover{
+  display: inline-block;
+}
+
+.header-bottom .custom-navbar .right-item{
+  cursor: pointer;
+}
+
+.header-bottom .custom-navbar .right-item span{
+  font-weight: 600;
+}
+
+.header-bottom .custom-navbar .right-item img{
+  margin-right: 19px;
+}
+
+.header-bottom .custom-navbar .right button{
+  background-color: #373737;
+  border-color: #373737;
+}
+
+.header-bottom .custom-navbar .right button:hover{
+  background-color: #5b636a;
+  border-color: #5b636a;
+}
+
+.header-bottom .custom-navbar .right i{
+  font-size: 18px;
+  margin: 0 9px 0 32px;
 }
 
 /* ---------------{ JUMBOTRON }--------------- */

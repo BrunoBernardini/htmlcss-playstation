@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+.custom-btn{
+  border-radius: 50px;
+}
+
+.custom-btn:hover{
+  outline: 1px solid white;
+  outline-offset: -3px;
+}
