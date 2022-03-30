@@ -83,6 +83,7 @@
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
   background-size: cover;
+  margin-bottom: 30px;
 }
 
 .jumbotron .content{
@@ -108,5 +109,27 @@
 }
 
 /* ---------------{ MAIN }--------------- */
+
+/* Games */
+
+.games .card{
+  /* width: 85%; */
+}
+
+/* PS5 */
+
+/* It Takes 2 */
+
+/* New Releases */
+
+/* PS4 */
+
+/* PlayStation Plus */
+
+/* Discounts */
+
+/* PlayStation Now */
+
+/* Socials */
 
 /* ---------------{ FOOTER }--------------- */
