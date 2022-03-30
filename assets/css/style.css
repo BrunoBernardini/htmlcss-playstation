@@ -116,6 +116,11 @@
   border: 2px solid transparent;
   border-radius: 20px;
   padding: 3px;
+  transition: transform .2s;
+}
+
+.games .col .game-card:hover{
+  transform: translateY(-20px);
 }
 
 .games .game-card.active{
