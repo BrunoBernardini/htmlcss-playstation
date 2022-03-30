@@ -112,6 +112,10 @@
 
 /* Games */
 
+.games{
+  margin-bottom: 85px;
+}
+
 .games .game-card{
   border: 2px solid transparent;
   border-radius: 20px;
@@ -120,7 +124,7 @@
 }
 
 .games .col .game-card:hover{
-  transform: translateY(-20px);
+  transform: translateY(-10px);
 }
 
 .games .game-card.active{
