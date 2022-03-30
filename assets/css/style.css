@@ -145,6 +145,10 @@ header{
 
 /* PS5 */
 
+.ps5{
+  margin-bottom: 16px;
+}
+
 .ps5 .top-text{
   margin-bottom: 67px;
 } 
@@ -201,6 +205,13 @@ header{
 
 /* It Takes 2 */
 
+.it-takes-2{
+  height: 618px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 /* New Releases */
 
 /* PS4 */
@@ -214,3 +225,15 @@ header{
 /* Socials */
 
 /* ---------------{ FOOTER }--------------- */
+
+/* ---------------{ MEDIA QUERIES }--------------- */
+
+@media screen and (max-width: 991px) {
+  .ps5 .ps5-bundle-item img{
+    width: 100%;
+  }
+
+  .ps5 .ps5-bundle-item h6{
+    display: none;
+  }
+}
