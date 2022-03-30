@@ -78,6 +78,35 @@
 
 /* ---------------{ JUMBOTRON }--------------- */
 
+.jumbotron{
+  height: 587px;
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron .content{
+  height: 100%;
+  color: white;
+}
+
+.jumbotron .content img,
+.jumbotron .content h1,
+.jumbotron .content p{
+  margin-bottom: 30px;
+}
+
+.jumbotron .content button{
+  background-color: #ce3d10;
+  border-color: #ce3d10;
+}
+
+.jumbotron .content button{
+  background-color: #ce3d19;
+  border-color: #ce3d19;
+  outline-color: #373737;
+}
+
 /* ---------------{ MAIN }--------------- */
 
 /* ---------------{ FOOTER }--------------- */

@@ -10,9 +10,10 @@ body{
 
 .custom-btn{
   border-radius: 50px;
+  font-weight: 600;
 }
 
 .custom-btn:hover{
-  outline: 1px solid white;
-  outline-offset: -3px;
+  outline: 2px solid white;
+  outline-offset: -4px;
 }
