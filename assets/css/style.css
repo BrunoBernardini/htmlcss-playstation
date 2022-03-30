@@ -112,8 +112,19 @@
 
 /* Games */
 
-.games .card{
-  /* width: 85%; */
+.games .game-card{
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.games .game-card.active{
+  border-color: #0875d3;
+}
+
+.games img{
+  width: 100%;
+  border-radius: 16px;
 }
 
 /* PS5 */
