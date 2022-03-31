@@ -180,13 +180,14 @@ header{
 }
 
 .ps5 .ps5-bundle-item img{
-  width: 51%;
+  width: 100%;
   margin: 0 auto 11px;
 }
 
 .ps5 .ps5-bundle-item h6{
   font-weight: 600;
   margin-bottom: 29px;
+  display: none;
 }
 
 /* It Takes 2 */
@@ -351,16 +352,37 @@ header{
 
 /* Socials */
 
+.socials{
+  padding: 70px 0 50px 0;
+}
+
+.socials .custom-container{
+  max-width: 580px;
+}
+
+.socials h2{
+  margin-bottom: 70px;
+}
+
+.socials img{
+  width: 100%;
+  margin-bottom: 48px;
+}
+
 /* ---------------{ FOOTER }--------------- */
+
+footer{
+  background-color: #00439c;
+}
 
 /* ---------------{ MEDIA QUERIES }--------------- */
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .ps5 .ps5-bundle-item img{
-    width: 100%;
+    width: 51%;
   }
 
   .ps5 .ps5-bundle-item h6{
-    display: none;
+    display: block;
   }
 }
