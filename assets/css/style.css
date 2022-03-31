@@ -313,6 +313,20 @@ header{
 
 /* Discounts */
 
+.discounts{
+  padding-top: 70px;
+}
+
+.discounts h1{
+  margin-bottom: 27px;
+}
+
+.discounts p{
+  color: #797979;
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
 /* PlayStation Now */
 
 /* Socials */
