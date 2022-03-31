@@ -28,3 +28,8 @@ body{
   border-color: #ce3d19;
   outline-color: #373737;
 }
+
+.reg{
+  font-size: 20px;
+  vertical-align: super;
+}
