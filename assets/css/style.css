@@ -217,6 +217,31 @@ header{
 
 /* New Releases */
 
+.new-releases{
+  background-color: #1f1f1f;
+  padding-top: 28px;
+  color: white;
+}
+
+.new-releases .nr-card{
+  padding-bottom: 30px;
+}
+
+.new-releases h2,
+.new-releases h4{
+  margin-bottom: 20px;
+}
+
+.new-releases img{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.new-releases p{
+  font-weight: 600;
+}
+
 /* PS4 */
 
 /* PlayStation Plus */
