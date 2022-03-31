@@ -104,17 +104,6 @@ header{
   margin-bottom: 30px;
 }
 
-.jumbotron .content button{
-  background-color: #ce3d10;
-  border-color: #ce3d10;
-}
-
-.jumbotron .content button{
-  background-color: #ce3d19;
-  border-color: #ce3d19;
-  outline-color: #373737;
-}
-
 /* ---------------{ MAIN }--------------- */
 
 /* Games */
@@ -210,6 +199,20 @@ header{
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center;
   background-size: cover;
+  color: white;
+}
+
+.it-takes-2 img{
+  width: 61%;
+  margin-bottom: 30px;
+}
+
+.it-takes-2 h1{
+  margin-bottom: 30px;
+}
+
+.it-takes-2 p{
+  margin-bottom: 30px;
 }
 
 /* New Releases */
@@ -228,7 +231,7 @@ header{
 
 /* ---------------{ MEDIA QUERIES }--------------- */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
   .ps5 .ps5-bundle-item img{
     width: 100%;
   }

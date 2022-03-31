@@ -17,3 +17,14 @@ body{
   outline: 2px solid white;
   outline-offset: -4px;
 }
+
+.custom-btn.red{
+  background-color: #ce3d10;
+  border-color: #ce3d10;
+}
+
+.custom-btn.red:hover{
+  background-color: #ce3d19;
+  border-color: #ce3d19;
+  outline-color: #373737;
+}
