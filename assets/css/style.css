@@ -399,6 +399,15 @@ footer .sie-logo{
   width: 125px;
   margin-bottom: 10px;
 }
+
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  color: wheat;
+}
+
 /* ---------------{ MEDIA QUERIES }--------------- */
 
 @media screen and (min-width: 768px) {
