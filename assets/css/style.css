@@ -373,8 +373,27 @@ header{
 
 footer{
   background-color: #00439c;
+  padding-top: 80px;
+  color: white;
 }
 
+footer .logo{
+  width: 95px;
+  margin-bottom: 37px;
+}
+
+footer .underlogo{
+  margin-bottom: 45px;
+}
+
+footer .underlogo .globe{
+  width: 19px;
+}
+
+footer ul li{
+  line-height: 32px;
+  font-size: 15px;
+}
 /* ---------------{ MEDIA QUERIES }--------------- */
 
 @media screen and (min-width: 768px) {
