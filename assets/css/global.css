@@ -35,6 +35,15 @@ body{
 
 /* /Button */
 
+.fancy-hover{
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.fancy-hover:hover{
+  transform: translateY(-10px);
+}
+
 .reg{
   font-size: 20px;
   vertical-align: super;
