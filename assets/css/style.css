@@ -375,9 +375,10 @@ footer{
   background-color: #00439c;
   padding-top: 80px;
   color: white;
+  font-size: 15px;
 }
 
-footer .logo{
+footer .ps-logo{
   width: 95px;
   margin-bottom: 37px;
 }
@@ -392,7 +393,11 @@ footer .underlogo .globe{
 
 footer ul li{
   line-height: 32px;
-  font-size: 15px;
+}
+
+footer .sie-logo{
+  width: 125px;
+  margin-bottom: 10px;
 }
 /* ---------------{ MEDIA QUERIES }--------------- */
 
