@@ -1,3 +1,5 @@
+/* ---------------{ GLOBAL }--------------- */
+
 *{
   margin: 0;
   padding: 0;
@@ -7,6 +9,8 @@
 body{
   font-family: Helvetica, sans-serif;
 }
+
+/* Button */
 
 .custom-btn{
   border-radius: 50px;
@@ -28,6 +32,8 @@ body{
   border-color: #ce3d19;
   outline-color: #373737;
 }
+
+/* /Button */
 
 .reg{
   font-size: 20px;
