@@ -78,8 +78,8 @@ header{
   border-color: #5b636a;
 }
 
-.header-bottom .custom-navbar .right i{
-  font-size: 18px;
+.header-bottom .custom-navbar .right .lens{
+  width: 22px;
   margin: 0 9px 0 32px;
   cursor: pointer;
 }
